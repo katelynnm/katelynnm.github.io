@@ -1,0 +1,59 @@
+#list-of-skills > p {
+	max-width: 340px;
+	padding: 10px 30px;
+	margin: 0;
+	color: white;
+	font-size: 1.25rem;
+
+	&:hover {
+		max-width: 370px;
+		transition: .5s ease-in;
+		font-size: 1.45rem;
+		padding: 7px 30px;
+	}
+
+	&#web-design {
+		background: $rusty-red;
+	}
+
+	&#info-design {
+		background: $orchid;
+	}
+
+	&#digital-assets {
+		background: $cool-blue;
+	}
+
+	&#identity-design {
+		background: $teal;
+	}
+
+	&#content-strategy {
+		background: $green;
+	}
+
+	&#print-design {
+		background: $lime;
+	}
+
+	&#adobe-cs {
+		background: $goldenrod;
+	}
+
+	&#microsoft {
+		background: $blush;
+	}
+
+
+}
+
+
+// .off{
+//   opacity:0;
+//   -webkit-transition:none;
+//    -moz-transition:none;
+//    transition:none;
+
+// }
+
+

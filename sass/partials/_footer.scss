@@ -1,0 +1,45 @@
+/* Footer */
+	footer ul {
+		list-style: none;
+		color: $palest-grey;
+	  -webkit-padding-start: 0px;
+
+	  a {
+	  	color: $palest-grey;
+
+
+		&:hover {
+			color: $light-grey;
+		}
+	  }
+
+	  &#footer-social {
+	  	color: white;
+	  	font-size: 1.5rem;
+	  	float: right;
+	  	display: inline;
+	  	margin: 7px;
+
+	  	a {
+	  		font-size: 2rem;
+	  		margin-left: .3rem;
+	  	}
+	  }
+	}
+
+	footer ul li {
+		display: inline;
+	}
+
+	#footer-text {
+		li:after {
+			content:' | ';
+		}
+
+		li:last-child:after {
+			content:'';
+		}
+
+		float: left;
+		display: inline;
+	}
