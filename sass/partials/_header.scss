@@ -20,6 +20,7 @@ nav ul {
 	width: 100%;
 	  -webkit-padding-start: 0;
 	@include respond-to(medium-screens) {margin: 0 ;}
+	overflow: auto;
 
 	li {
 		float: left;
