@@ -211,6 +211,7 @@ footer ul li {
   position: relative;
   text-align: center;
   height: 100px;
+  overflow: visible;
 }
 
 /* line 16, ../sass/partials/_header.scss */
@@ -220,7 +221,7 @@ nav ul {
   text-align: center;
   width: 100%;
   -webkit-padding-start: 0;
-  overflow: auto;
+  overflow: visible;
 }
 @media only screen and (min-width: 429px) and (max-width: 1039px) {
   /* line 16, ../sass/partials/_header.scss */
