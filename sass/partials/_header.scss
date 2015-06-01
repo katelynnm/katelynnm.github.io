@@ -35,7 +35,7 @@ nav ul {
 			border-bottom: 1px solid #ccc;
 			padding: 0 6% 13px 6.5%;
 			width: 21%;
-			margin-top: 50px;
+			margin-top: 30px;
 			@include respond-to(handhelds) { width:17%; padding: 5px; margin-top: 30px;}
 			@include respond-to(medium-screens) { width: 20%; padding-bottom: 6px; margin-top: 35px; font-size: .5rem}
 		}

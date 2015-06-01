@@ -243,7 +243,7 @@ nav ul li:not(.km-logo) {
   border-bottom: 1px solid #ccc;
   padding: 0 6% 13px 6.5%;
   width: 21%;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 @media only screen and (max-width: 428px) {
   /* line 32, ../sass/partials/_header.scss */
